@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e057b28e7b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1>Cash Register Manager</h1>
+      <div class="at-bil">
+        <label for="bill">Bill Amount</label>
+        <input id="bill" type="number" placeholder="Enter Bill Amount" />
+        <button id="take-bill">Enter</button>
+      </div>
+      <div class="after-bill">
+        <label for="cash">Cash Given</label>
+        <input id="cash" type="number" placeholder="Enter Given Cash" />
+        <button id="take-cash">Enter</button>
+      </div>
+      <p id="bill-error"></p>
+      <div class="after-cash">
+        <p id="return"></p>
+        <table>
+          <tr>
+            <th>Number of Notes</th>
+            <td class="change">0</td>
+            <td class="change">0</td>
+            <td class="change">0</td>
+            <td class="change">0</td>
+            <td class="change">0</td>
+            <td class="change">0</td>
+          </tr>
+          <tr>
+            <th>Note</th>
+            <td>2000₹</td>
+            <td>500₹</td>
+            <td>100₹</td>
+            <td>20₹</td>
+            <td>5₹</td>
+            <td>1₹</td>
+          </tr>
+        </table>
+      </div>
+      <!-- footer  -->
+
+      <footer>Made By Harshit Paliwal</footer>
+
+      <div id="links">
+        <a href="https://twitter.com/harshit__hp" target="_blank">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+
+        <a href="https://github.com/harshitpaliwal95" target="_blank">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/harshit-paliwal-8302951b0/"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

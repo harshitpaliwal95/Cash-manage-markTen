@@ -1,0 +1,67 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: #b2fefa; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0ed2f7,
+    #b2fefa
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0ed2f7,
+    #b2fefa
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+main {
+  /* margin-top: 0.5rem; */
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+button {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  width: 80px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+button:hover {
+  background-color: gray;
+  color: white;
+  transition: 0.5s;
+  font-weight: bolder;
+  box-shadow: 1px 1px 3px black;
+}
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+input {
+  width: 20rem;
+  height: 1.5rem;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+}
+table {
+  margin: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-radius: 30px;
+}
+td,
+th {
+  padding: 0.5rem 0.7rem;
+  border: 0.3px solid black;
+}
+footer {
+  margin-top: 100px;
+  padding: 5px;
+}
+#links a {
+  margin: 10px;
+  padding: 6px;
+  color: black;
+  margin-top: 40px;
+}
